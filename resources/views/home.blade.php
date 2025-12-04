@@ -9,7 +9,7 @@
     <div class="container hero-content">
         <div class="hero-text">
             <p class="greeting">Hi, I am</p>
-            <h1>Your Name</h1>
+            <h1>NAYEEM HASAN HABIB</h1>
             <h2>Full-Stack Laravel Developer</h2>
             <p class="hero-description">
                 I build clean, scalable web applications using Laravel, PHP, and modern frontend technologies.
@@ -20,11 +20,9 @@
             </div>
         </div>
         <div class="hero-image">
-            {{-- চাইলে এখানে ছবি add করতে পারো --}}
-            <div class="profile-circle">
-                <span>Y</span>
-            </div>
-        </div>
+    <img src="{{ asset('images/profile.jpg') }}" alt="Profile Photo" class="profile-photo">
+</div>
+
     </div>
 </section>
 
