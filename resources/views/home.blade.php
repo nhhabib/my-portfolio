@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.portfolio')
 
 @section('title', 'Home')
 
@@ -14,17 +14,17 @@
             <p class="greeting">Hi, I am</p>
             <h1 class="hero-name">Nayeem Hasan Habib</h1>
             <h2 class="hero-title">
-    <span id="typing-text"></span>
-</h2>
-<script>
-    const typingTexts = [
-        "Full-Stack Laravel Developer",
-        "Web Application Builder",
-        "Backend Problem Solver",
-        "Tech Enthusiast"
-    ];
-</script>
+                <span id="typing-text"></span>
+            </h2>
 
+            <script>
+                const typingTexts = [
+                    "Full-Stack Laravel Developer",
+                    "Web Application Builder",
+                    "Backend Problem Solver",
+                    "Tech Enthusiast"
+                ];
+            </script>
 
             <p class="hero-description">
                 I build clean, scalable web applications using Laravel, PHP, and modern frontend technologies.
@@ -68,22 +68,42 @@
         <div class="skills-grid">
             <div class="skill-card">
                 <h3>Backend</h3>
-                <ul><li>Laravel</li><li>PHP</li><li>REST API</li><li>Auth System</li></ul>
+                <ul>
+                    <li>Laravel</li>
+                    <li>PHP</li>
+                    <li>REST API</li>
+                    <li>Auth System</li>
+                </ul>
             </div>
 
             <div class="skill-card">
                 <h3>Frontend</h3>
-                <ul><li>HTML, CSS</li><li>JavaScript</li><li>Blade</li><li>Responsive UI</li></ul>
+                <ul>
+                    <li>HTML, CSS</li>
+                    <li>JavaScript</li>
+                    <li>Blade</li>
+                    <li>Responsive UI</li>
+                </ul>
             </div>
 
             <div class="skill-card">
                 <h3>Database</h3>
-                <ul><li>MySQL</li><li>Migrations</li><li>Query Builder</li><li>Eloquent ORM</li></ul>
+                <ul>
+                    <li>MySQL</li>
+                    <li>Migrations</li>
+                    <li>Query Builder</li>
+                    <li>Eloquent ORM</li>
+                </ul>
             </div>
 
             <div class="skill-card">
                 <h3>Tools</h3>
-                <ul><li>Git</li><li>Composer</li><li>Postman</li><li>VS Code</li></ul>
+                <ul>
+                    <li>Git</li>
+                    <li>Composer</li>
+                    <li>Postman</li>
+                    <li>VS Code</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -100,19 +120,28 @@
             <div class="project-card">
                 <h3>Project Management System</h3>
                 <p>Role-based app with tasks, teams, dashboard.</p>
-                <div class="project-links"><a href="#">Live</a><a href="#">GitHub</a></div>
+                <div class="project-links">
+                    <a href="#">Live</a>
+                    <a href="#">GitHub</a>
+                </div>
             </div>
 
             <div class="project-card">
                 <h3>Blog Platform</h3>
                 <p>Blog with categories, tags, admin dashboard.</p>
-                <div class="project-links"><a href="#">Live</a><a href="#">GitHub</a></div>
+                <div class="project-links">
+                    <a href="#">Live</a>
+                    <a href="#">GitHub</a>
+                </div>
             </div>
 
             <div class="project-card">
                 <h3>Portfolio Website</h3>
                 <p>Modern portfolio to showcase work.</p>
-                <div class="project-links"><a href="#">Live</a><a href="#">GitHub</a></div>
+                <div class="project-links">
+                    <a href="#">Live</a>
+                    <a href="#">GitHub</a>
+                </div>
             </div>
         </div>
     </div>
